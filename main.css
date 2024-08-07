@@ -1,19 +1,46 @@
+/* Main Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
 
+/* Header Styles */
+div {
+  background-color: darkcyan;
+  text-align: right;
+  padding: 10px;
+}
 
+/* Content Styles */
 h1 {
-  font-size: 40px;
-  font-family: Arial
+  text-align: center;
+  margin-top: 20px;
 }
-h2 {
-  font-size: 25px;
-  font-family: Arial
+
+h2, h3 {
+  margin-left: 20px;
 }
-h3 {
-  font-family: Arial
-}
+
 p {
-  font-size: 14px;
-  font-family: Arial
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px;
+}
 
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
