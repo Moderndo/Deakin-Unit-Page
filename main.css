@@ -12,6 +12,10 @@ div {
   text-align: right;
   padding: 10px;
 }
+div {
+background-color: blue;
+text-align: right;
+}
 
 /* Content Styles */
 h1 {
@@ -44,3 +48,10 @@ th, td {
 tr:nth-child(odd) {
   background-color: #f2f2f2;
 }
+/* Header Styles */
+div {
+    background-color: darkcyan;
+    text-align: right;
+    padding: 10px;
+}
+
